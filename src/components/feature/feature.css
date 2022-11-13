@@ -1,0 +1,50 @@
+.land__features-container__feature{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: flex-end; */
+    flex-direction: column;
+    text-align: left;
+
+    margin: 2.5rem;
+}
+
+.land__features-container__feature-title {
+    flex: 1;
+    max-width: 200px;
+    margin-right: 1rem;
+}
+
+.land__features-container__feature-title h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 0.5em;
+    color: black;
+}
+
+.land__features-container__feature-title div{
+    width: 120px;
+    height: 8px;
+    background: #5291cc;
+    box-shadow: 1px 4px 4px #5291cc(0, 0, 0, 0.25);
+    margin-bottom: 0.25rem;
+}
+
+.land__features-container_feature-text {
+    line-height: 20px;
+    max-width: 500px;
+    font-size: 20px;
+    /* text-align: left; */
+    display: grid;
+}
+
+.land__features-container_feature-text p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 28px;
+    /* text-align: left; */
+    color: white;
+}

@@ -1,0 +1,32 @@
+.land__brand {
+    display: flex;
+    flex-direction: row;
+    background: #f5faeb;
+}
+
+.land__brand-content {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+.land__brand-content h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.land__brand-content p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #00192c;
+    margin-top: 1.6rem;
+}

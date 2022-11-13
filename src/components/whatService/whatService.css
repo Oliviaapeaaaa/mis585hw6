@@ -1,0 +1,71 @@
+.land__whatService{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    background: #9aca3b;
+}
+
+.land__whatService-feature {
+    display: flex;
+}
+
+
+.land__whatService-feature .land__whatService-container__feature {
+    margin: auto;
+}
+
+.land__whatService-feature .land__whatService-container__feature-text {
+    max-width: 800px;
+}
+
+.land__whatService-heading {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin: 2rem 6 2rem;
+}
+
+.land__whatService-heading h1 {
+    font-size: 40px;
+    line-height: 80px;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.land__whatService-heading p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 50px;
+    color: #5291cc; 
+    cursor: pointer;
+}
+.land__whatService-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 2rem;
+}
+
+.land__whatService-container .land__whatService-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 200px;
+    display: unset;
+    flex-direction: column;
+}
+
+.land__whatService-container .land__whatService-container__feature-text {
+    margin-top: 0.5rem;
+}
+
+.land__whatService-container-img {
+    width: 800px;
+    height: 700px;
+} 
+.conbineBox {
+    display: flex;
+    align-items: center;
+}
